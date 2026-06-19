@@ -2,7 +2,7 @@
 
 # Overview
 
-Developed a web-based Pharmacy Inventory Management System using Laravel and MySQL to streamline the management of medicines and inventory within a pharmacy. The application uses Laravel's session-based authentication system to provide secure access to authorized users and enables efficient tracking of pharmaceutical products.
+Developed a web-based Pharmacy Inventory Management System using Laravel and MySQL to streamline the management of medicines and inventory within a pharmacy.
 
 ## 🛠️ Technologies Used
 * PHP 
