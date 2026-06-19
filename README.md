@@ -1,20 +1,34 @@
-# Simple Laravel 11 CRUD Application Tutorial
-Learn how to develop a simple Laravel 11 CRUD application
+# 🚀 Pharmacy Inventory Management System
 
-> The complete tutorial step by step guide is available on my blog. [Laravel 11 CRUD Application](https://www.allphptricks.com/simple-laravel-11-crud-application-tutorial/)
+# Overview
 
-## Blog
-https://www.allphptricks.com/
+Developed a web-based Pharmacy Inventory Management System using Laravel and MySQL to streamline the management of medicines and inventory within a pharmacy. The application uses Laravel's session-based authentication system to provide secure access to authorized users and enables efficient tracking of pharmaceutical products.
+
+## 🛠️ Technologies Used
+* PHP 
+* Laravel
+* MySQL
+* Eloquent ORM
+* Bootstrap
+* Blade
+* HTML/CSS
+* Git
+## 💻 Key Features
+
+* Complete CRUD (Create, Read, Update, Delete) operations for medicine and inventory management.
+* Medicine image upload and storage functionality.
+* Inventory tracking with quantity management.
+* Server-side form validation using Laravel Form Requests.
+* Product listing with pagination support.
+* Database operations using Eloquent ORM.
+* Responsive user interface built with Blade templates and Bootstrap..
 
 
-## Installation 
-Make sure that you have setup the environment properly. You will need minimum PHP 8.2, MySQL/MariaDB, and composer.
-
-1. Download the project (or clone using GIT)
-2. Copy `.env.example` into `.env` and configure your database credentials
-3. Go to the project's root directory using terminal window/command prompt
-4. Run `composer install`
-5. Set the application key by running `php artisan key:generate --ansi`
-6. Run migrations `php artisan migrate`
-7. Start local server by executing `php artisan serve`
-8. Visit here [http://127.0.0.1:8000/products](http://127.0.0.1:8000/products) to test the application
+## 💻 Technical Highlights
+* Built using Laravel's MVC architecture.
+* Implemented Eloquent ORM for database interactions.
+* Used middleware for route protection and authentication.
+* Managed file uploads using Laravel Storage.
+* Created database migrations, seeders, and factories for database management and test data generation.
+* Applied Laravel validation rules to ensure data integrity and consistency.
+* Followed Laravel coding standards and best practices.
